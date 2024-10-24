@@ -25,5 +25,5 @@ cd push_swap
 
 3. Mi checker del bonus:
 ```bash
-./push_swap <Numeros aleatorios> | ./checker 3 2 1
+./checker <Numeros Aleatorios>
 ```
