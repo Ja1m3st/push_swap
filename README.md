@@ -1,4 +1,14 @@
-# 🌀 Push_swap
+   _ (`-.               .-')    ('-. .-.        .-')     (`\ .-') /`  ('-.      _ (`-.  
+  ( (OO  )             ( OO ). ( OO )  /       ( OO ).    `.( OO ),' ( OO ).-. ( (OO  ) 
+ _.`     \,--. ,--.   (_)---\_),--. ,--.      (_)---\_),--./  .--.   / . --. /_.`     \ 
+(__...--''|  | |  |   /    _ | |  | |  |      /    _ | |      |  |   | \-.  \(__...--'' 
+ |  /  | ||  | | .-') \  :` `. |   .|  |      \  :` `. |  |   |  |,.-'-'  |  ||  /  | | 
+ |  |_.' ||  |_|( OO ) '..`''.)|       |       '..`''.)|  |.'.|  |_)\| |_.'  ||  |_.' | 
+ |  .___.'|  | | `-' /.-._)   \|  .-.  |      .-._)   \|         |   |  .-.  ||  .___.' 
+ |  |    ('  '-'(_.-' \       /|  | |  |      \       /|   ,'.   |   |  | |  ||  |      
+ `--'      `-----'     `-----' `--' `--'       `-----' '--'   '--'   `--' `--'`--'      
+
+# 🌀 Push_swap 
 
 El proyecto Push_swap es un desafío de 42 en el que debes ordenar una pila de números utilizando un conjunto limitado de operaciones. Tu objetivo es desarrollar un algoritmo eficiente que logre esto en el menor número de movimientos posibles.
 
@@ -7,6 +17,7 @@ El proyecto Push_swap es un desafío de 42 en el que debes ordenar una pila de n
 - Normas: Alineado con las normativas de la Norminette de 42 (sin variables globales, buenas prácticas de código).
 - Librerías permitidas: La estándar de libc y desarrolladas por mi: libft, get_next_line y ft_printf.
 - Entorno: Desarrollado y probado en Ubuntu.
+
 
 # 📊 Algoritmo
 Mi proyecto utiliza el algoritmo Quick Sort (o el que hayas implementado). A continuación, se presenta una breve descripción de cómo funciona:
@@ -39,4 +50,7 @@ Después de escribir checker y el stack de números, tendrás que escribir los m
 
 ![Push_swap_bonus](https://github.com/user-attachments/assets/24c765a4-9ba2-418e-a03d-511c666a3296)
 
-**Intra 42:** ```jaimesan```
+**Intra 42:** ```jaimesan``` 
+- ![Versión](https://img.shields.io/badge/Versión-1.0-brightgreen)
+- ![Build](https://img.shields.io/badge/Build-Passing-blue)
+- ![Estado](https://img.shields.io/badge/Estado-%20Terminado-yellow)
