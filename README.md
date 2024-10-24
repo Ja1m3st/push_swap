@@ -1,15 +1,3 @@
-```
-   _ (`-.               .-')    ('-. .-.        .-')     (`\ .-') /`  ('-.      _ (`-.  
-  ( (OO  )             ( OO ). ( OO )  /       ( OO ).    `.( OO ),' ( OO ).-. ( (OO  ) 
- _.`     \,--. ,--.   (_)---\_),--. ,--.      (_)---\_),--./  .--.   / . --. /_.`     \ 
-(__...--''|  | |  |   /    _ | |  | |  |      /    _ | |      |  |   | \-.  \(__...--'' 
- |  /  | ||  | | .-') \  :` `. |   .|  |      \  :` `. |  |   |  |,.-'-'  |  ||  /  | | 
- |  |_.' ||  |_|( OO ) '..`''.)|       |       '..`''.)|  |.'.|  |_)\| |_.'  ||  |_.' | 
- |  .___.'|  | | `-' /.-._)   \|  .-.  |      .-._)   \|         |   |  .-.  ||  .___.' 
- |  |    ('  '-'(_.-' \       /|  | |  |      \       /|   ,'.   |   |  | |  ||  |      
- `--'      `-----'     `-----' `--' `--'       `-----' '--'   '--'   `--' `--'`--'     
-```
-
 # 🌀 Push_swap 
 
 El proyecto Push_swap es un desafío de 42 en el que debes ordenar una pila de números utilizando un conjunto limitado de operaciones. Tu objetivo es desarrollar un algoritmo eficiente que logre esto en el menor número de movimientos posibles.
