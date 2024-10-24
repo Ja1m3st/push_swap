@@ -23,7 +23,7 @@ cd push_swap
 ![Push_Swap](https://github.com/user-attachments/assets/c6169125-d85e-40af-9177-377dd1ede8e7)
 
 
-3. Mi checker del bonus:
+## 3. Mi checker del bonus:
 ```bash
 ./checker <Numeros Aleatorios>
 ```
