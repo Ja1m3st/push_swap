@@ -19,7 +19,7 @@ Se optimizó el algoritmo para listas pequeñas (3, 4 y 5 elementos) y listas m�
 git clone git@github.com:Ja1m3st/push_swap.git
 cd push_swap
 ```
-- Para poder ejecutarlo tendras que compilarlo con ```make```
+Para poder ejecutarlo tendrás que compilarlo con ```make```
 
 ## ⚙️ Para ejecutar el programa:
 ```bash
@@ -31,7 +31,7 @@ cd push_swap
 ## 🛠️ Mi checker del bonus:
 
 Si quieres usar mi checker tendras que hacer ```make bonus``` de esta manera ya podras utilizarlo, tambien podras utilizar el checker_linux.
-Después de escribir checker y el stack de números tendras que escribir los números necesarios para ordenarlos y el checker te dirá si esta ordenado o no.
+Después de escribir checker y el stack de números, tendrás que escribir los movimientos necesarios para ordenarlos y el checker te dirá si esta ordenado o no.
 
 ```bash
 ./checker <Numeros Aleatorios>
