@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 10:24:52 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/23 16:32:41 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 16:49:53 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,5 +103,10 @@ char	*get_next_line(int fd)
 		return (NULL);
 	buffer = ft_first_line(save);
 	save = ft_delete_first_line(save);
+	if (!save || *save == '\0')
+	{
+		free(save);
+		save = NULL;
+	}
 	return (buffer);
 }

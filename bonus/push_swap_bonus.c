@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 16:03:10 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/24 15:59:00 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 16:40:30 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ void	put_movs(t_alist **lsta, t_alist **lstb)
 		if (ft_check(lsta, lstb, buffer) == 0 && buffer[0] != '\n')
 		{
 			write(1, "Error\n", 6);
+			free(buffer);
 			break ;
 		}
 		else if (buffer[0] == '\n')
