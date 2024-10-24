@@ -16,7 +16,7 @@ Se optimizó el algoritmo para listas pequeñas (3, 4 y 5 elementos) y listas m�
 
 ## 📋 Clone the repository:
 ```bash
-git clone https://github.com/tu-repo/push_swap.git
+git clone git@github.com:Ja1m3st/push_swap.git
 cd push_swap
 ```
 - Para poder ejecutarlo tendras que compilarlo con ```make```
