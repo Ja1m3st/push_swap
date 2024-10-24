@@ -6,15 +6,16 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/17 16:07:25 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/23 14:29:38 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:45:42 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-long long	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
-	size_t		i;
+	int			i;
 	int			sign;
 	long long	res;
 

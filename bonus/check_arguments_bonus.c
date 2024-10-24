@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:55:24 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/24 13:19:14 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:56:11 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,9 @@ int	ft_check_arguments(char **argv, int i, t_alist **a_node_list)
 	{
 		if (ft_isnumber(split[j]))
 		{
-			if (ft_is_duplicate(*a_node_list, ft_atoi(split[j])))
-				return (1);
+			if (ft_is_duplicate(*a_node_list, ft_atoi(split[j]))
+				|| (ft_atoi(split[j]) < -2147483648 ||  ft_atoi(split[j]) > 2147483647))
+				return (free_split(split));
 			node = ft_push_lstnew(ft_atoi(split[j]));
 			if (!node)
 				return (free_split(split));
@@ -64,6 +65,5 @@ int	ft_check_arguments(char **argv, int i, t_alist **a_node_list)
 			return (free_split(split));
 		j++;
 	}
-	free_split(split);
-	return (0);
+	return (free_split(split), 0);
 }

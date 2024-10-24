@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 14:28:08 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/23 14:30:16 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:45:48 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int			ft_strncmp(const char *s1, const char *s2, size_t n);
 void		*ft_memchr(const void *ptr, int value, size_t num);
 int			ft_memcmp(const void *ptr1, const void *ptr2, size_t num);
 char		*ft_strnstr(const char *haystack, const char *needle, size_t len);
-long long	ft_atoi(const char *str);
+long		ft_atoi(const char *str);
 void		*ft_calloc(size_t num_elements, size_t element_size);
 char		*ft_strdup(const char *s);
 char		*ft_substr(char const *s, unsigned int start, size_t len);

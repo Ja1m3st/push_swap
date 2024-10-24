@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 08:59:43 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/23 15:15:39 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:54:46 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,9 @@ int	ft_check_arguments(char **argv, int i, t_alist **a_node_list)
 	{
 		if (ft_isnumber(split[j]))
 		{
-			if (ft_is_duplicate(*a_node_list, ft_atoi(split[j])))
-				return (1);
+			if (ft_is_duplicate(*a_node_list, ft_atoi(split[j]))
+				|| (ft_atoi(split[j]) < -2147483648 ||  ft_atoi(split[j]) > 2147483647))
+				return (free_split(split));
 			node = ft_push_lstnew(ft_atoi(split[j]));
 			if (!node)
 				return (free_split(split));
@@ -37,8 +38,7 @@ int	ft_check_arguments(char **argv, int i, t_alist **a_node_list)
 			return (free_split(split));
 		j++;
 	}
-	free_split(split);
-	return (0);
+	return (free_split(split), 0);
 }
 
 void	ft_get_index(t_alist **lsta)

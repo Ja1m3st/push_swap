@@ -6,7 +6,7 @@
 /*   By: jaimesan <jaimesan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 16:03:10 by jaimesan          #+#    #+#             */
-/*   Updated: 2024/10/24 14:27:36 by jaimesan         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:59:00 by jaimesan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,6 @@ int	main(int argc, char **argv)
 		i++;
 	}
 	put_movs(&a_node_list, &b_node_list);
-	print_list(a_node_list);
 	free_list(a_node_list);
 	free_list(b_node_list);
 	return (0);
